@@ -2,7 +2,9 @@
 const result = document.querySelector('#output');
 const clear = document.querySelector('#clear');
 const backspace = document.querySelector('#backspace');
-const equal = document.querySelector('#equal')
+const equal = document.querySelector('#equal');
+let checkerArray = [];
+let sum = "";
 
 
 // Display
@@ -78,9 +80,12 @@ addEventListener('click', ()=>{
 
 // Clear button
 document.querySelector('#clear')
-.addEventListener('click', ()=>{
-    let output = result.value;
-    result.value = "";
+.addEventListener('click', (e)=>{
+    sum = "";
+    document.getElementById('output').value = sum;
+    // let output = result.value;
+    // result.value = "";
+    checkerArray = [];
     clear();
 })
 
