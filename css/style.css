@@ -1,1 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* styling my container which has all my function in disply flex and justify will allow the the items to align itself in the center */
+.container{
+    background-color: rgb(89, 215, 89);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+/* giving my display a border */
+ #output{
+    border-radius: 10px;
+    height: 50px;
+    width: 100%;
+    border: 1px solid black;
+    margin-bottom: 1rem;
+    text-align: end;
+} 
+
+/* styling the box where the calculator functions will be in  */
+.box{
+    background-color: green;
+    border-radius: 15px;
+    padding: 20px;    
+}
+
+/* styling my button to be more button like instead of looking like a box */
+button{
+width: 75px;
+height: 50px;
+border-radius: 10px;
+margin-bottom: 1rem;
+}
+
+button:hover{
+   background-color: rgb(120, 210, 120);
+}
+
+/* make equal to size wider */
+#equal{
+    width: 155px;
+}
+
+
+
+
+
 
